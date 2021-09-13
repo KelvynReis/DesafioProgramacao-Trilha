@@ -44,6 +44,11 @@ nav a{
     font-size: 15px;
     font-weight: bold;
 }
+.isActive{
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-radius: 10px;
+}
 main{
     width: auto;
     max-width: 940px;
