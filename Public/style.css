@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background: rgb(182, 204, 179);
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    width: 100%;
+    /* max-width: 980px; */
+    height: 80px;
+    background: rgb(18, 189, 166);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+}
+
+header h1{
+    width: 30%;
+}
+header h1 img{
+    width: 15%;
+}
+nav{
+    margin-right: 30px;
+}
+nav ul li{
+    display: inline;
+    margin-left: 15px;
+}
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+    
+    color: rgb(19, 58, 56);
+    font-size: 15px;
+    font-weight: bold;
+}
+main{
+    width: auto;
+    max-width: 940px;
+    margin: 35px auto;
+
+}
+main h2{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+main img {
+    background-image: url("../assents/images/main.jpg");
+    background-size: cover;
+    width: 100%;
+}
+ main p{
+     margin-top: 20px;
+     font-size: 18px;
+     font-family: 'Montserrat', sans-serif;
+ }
+ 
+ /* CADS */
+ .content-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content-card a{
+      text-decoration: none;
+  }
+  .card {
+    border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
+    padding: 30px;
+    margin: 20px;
+    width: 400px;
+    transition: all 0.3s ease-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+  
+  .card p {
+    color: #a3a5ae;
+    font-size: 16px;
+  }
+  
+  .blue {
+    border-left: 3px solid #4895ff;
+  }
+  
+  .green {
+    border-left: 3px solid #3bb54a;
+  }
+  
+  .red {
+    border-left: 3px solid #b3404a;
+  }
+ 
+ section{
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+     align-items: center;
+
+     padding: 20px;
+ }
+ .title-list{
+     font-size: 20px;
+     font-weight: bold;
+     font-family: 'Montserrat', sans-serif;
+     margin-bottom: 20px;
+ }
+section ul li{
+    text-decoration: none;
+ }
