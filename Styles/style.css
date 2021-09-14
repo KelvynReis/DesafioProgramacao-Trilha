@@ -5,7 +5,6 @@
 }
 body{
     height: 100vh;
-    background: rgb(182, 204, 179);
     font-family: 'Montserrat', sans-serif;
 }
 header{
@@ -25,6 +24,7 @@ header{
 
 header h1{
     width: 30%;
+    padding-bottom: 15px;
 }
 header h1 img{
     width: 15%;
@@ -44,16 +44,18 @@ nav a{
     font-size: 15px;
     font-weight: bold;
 }
+nav a:hover{
+    text-decoration: none;
+}
 .isActive{
-    background-color: aqua;
-    border: 2px solid aqua;
-    border-radius: 10px;
+    background-color: wheat;
+    border: 15px solid wheat;
+    border-radius: 20px;
 }
 main{
     width: auto;
     max-width: 940px;
     margin: 35px auto;
-
 }
 main h2{
     text-align: center;
@@ -71,7 +73,7 @@ main img {
      font-family: 'Montserrat', sans-serif;
  }
  
- /* CADS */
+ /* CARDS */
  .content-card {
     display: flex;
     justify-content: center;
