@@ -62,7 +62,7 @@ nav a:hover{
 
 .content{
     width: 100%;
-    padding: 3rem;
+    padding: 2.5rem;
 
     display: flex;
     flex-direction: column;
@@ -81,9 +81,9 @@ nav a:hover{
 
 .content > p{
     text-align: justify;
-    font-size: 20px;
+    font-size: 16px;
 
-    margin-bottom: 20px;
+    /* margin-bottom: 5px; */
 }
 
 .section-principal{
