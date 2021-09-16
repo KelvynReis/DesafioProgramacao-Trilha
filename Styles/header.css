@@ -1,6 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
 header{
     width: 100%;
-    /* max-width: 980px; */
     height: 80px;
     background: rgb(18, 189, 166);
 
@@ -39,7 +47,13 @@ nav a:hover{
     text-decoration: none;
 }
 .isActive{
+    font-weight: bold;
+    color: black;
     background-color: wheat;
     border: 15px solid wheat;
     border-radius: 20px;
+}
+.isActive:hover{
+    background: blanchedalmond;
+    border-color: blanchedalmond;
 }
