@@ -19,6 +19,7 @@ header{
     margin: 0 auto;
     position: fixed;
     top: 0;
+    z-index: 100;
 }
 
 header h1{

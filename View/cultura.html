@@ -16,14 +16,13 @@
     
 </head>
 <body>
-    <header>
+    <header style="background:rgb(255, 255, 100);">
         <h1><img src="../assets/images/brasao.png" alt="brasaoMaranhao"></h1>
         <nav class="navigation">
             <ul class="cabecalho">
                 <li><a  href="./index.html">Home</a></li>
                 <li><a class="isActive" href="./cultura.html">Cultura</a></li>
                 <li><a href="./PontosTuristicos.html">Pontos Turisticos</a></li>
-                <li><a href="#">Festas</a></li>
             </ul>
         </nav>
     </header>
@@ -137,22 +136,20 @@
                         <li><a href="./index.html">Home</a></li>
                         <li><a href="./cultura.html">Cultura</a></li>
                         <li><a href="#">Pontos Turisticos</a></li>
-                        <li><a href="#">Pratos tipicos</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-2">
-                    <h5>Sobre-nós</h5>
+                    <h5>Sobre o Inova Maranhão</h5>
                     <ul>
-                        <li><a href="#">Informações da Empresa</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="https://www.inova.ma.gov.br/" target="_blanck">Informações</a></li>
+                        <li><a href="https://www.inova.ma.gov.br/" target="_blanck">Blog</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
                     <div class="social-networks">
-                        <a href="#" class="twitter"><i class="fa fa-github"></i></a>
-                        <a href="#" class="facebook"><i class="fa fa-linkedin"></i></a>
-                        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+                        <a href="https://github.com/Sogeking07" class="twitter"><i class="fa fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/kelvynreis/" class="facebook"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/kelvyn_reis_/" class="instagram"><i class="fa fa-instagram"></i></a>
                     </div>
                     <a href="#" class="contato">
                         <button type="button" class="btn btn-default">Contato</button>
@@ -173,10 +170,13 @@
             <button class="exit">X</button>
             <h3>Deixe sua opniao sobre o site</h3>
             <form>
-                <input type="text" class="input" placeholder="Digite seu Nome">
-                <input type="text" class="input" placeholder="Digite seu Email">
-                <textarea cols="30" rows="10"></textarea>
-                <input type="button" value="enviar">
+                <label>Nome e sobrenome<input type="text"name="Name" required placeholder="fulano de tal" /></label>
+                <label>Email<input type="email"name="Name" required placeholder="fulano@gmail.com" /></label>
+                <label>Telefone<input type="tel"name="Name" required placeholder="(XX) XXXXX-XXXX" /></label>
+    
+                <label for="mensagem">Deixe sua opnião</label>
+                <textarea id="mensagem" cols="30" rows="5" required></textarea>
+                <button class="enviar">Enviar</button>
             </form>
         </div>
     </div>

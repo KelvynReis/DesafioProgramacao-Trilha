@@ -23,10 +23,46 @@
     background: white;
     width: 60%;
     min-width: 300px;
-    padding: 40px;
-    border: 10px solid #988b7a;
+    padding: 15px;
+    border: 10px solid rgb(18, 189, 166);
 
     position: relative;
+    
+}
+
+.modal-content form label{
+    width: 100%;
+    display: block;
+    font-size: 14px;
+
+    margin: 20px 0;
+}
+
+form label input, textarea{
+    display: block;
+    padding: 10px 5px;
+    width: 50%;
+
+    margin: 10px 0;
+}
+
+.modal-content form button{
+    width: 50%;
+    padding: 11px;
+    
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background: rgb(18, 189, 166);
+    border-radius: 5px;
+    border: 1px solid;
+    transition: 1s all;
+	cursor: pointer;
+}
+
+.modal-content form button:hover{
+    background: rgb(17, 131, 116);
+    color:blanchedalmond;
 }
 
 @keyframes modal{
@@ -59,4 +95,9 @@
     background: red;
     color: white;
     cursor: pointer;
+    transition: 1s;
+}
+
+.exit:hover{
+    background: rgb(204, 99, 99);
 }

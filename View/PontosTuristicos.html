@@ -98,11 +98,10 @@
                     </ul>
                 </div>
                 <div class="col-sm-2">
-                    <h5>Sobre-nós</h5>
+                    <h5>Sobre o Inova Maranhão</h5>
                     <ul>
-                        <li><a href="#" onclick="return false;">Informações da Empresa</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Blog</a></li>
+                        <li><a href="https://www.inova.ma.gov.br/" target="_blanck">Informações</a></li>
+                        <li><a href="https://www.inova.ma.gov.br/" target="_blanck">Blog</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
@@ -130,10 +129,13 @@
             <button class="exit">X</button>
             <h3>Deixe sua opniao sobre o site</h3>
             <form>
-                <input type="text" class="input" placeholder="Digite seu Nome">
-                <input type="text" class="input" placeholder="Digite seu Email">
-                <textarea cols="30" rows="10"></textarea>
-                <input type="button" value="enviar">
+                <label>Nome e sobrenome<input type="text"name="Name" required placeholder="fulano de tal" /></label>
+                <label>Email<input type="email"name="Name" required placeholder="fulano@gmail.com" /></label>
+                <label>Telefone<input type="tel"name="Name" required placeholder="(XX) XXXXX-XXXX" /></label>
+    
+                <label for="mensagem">Deixe sua opnião</label>
+                <textarea id="mensagem" cols="30" rows="5" required></textarea>
+                <button>Enviar</button>
             </form>
         </div>
     </div>

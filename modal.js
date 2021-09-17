@@ -1,5 +1,6 @@
 function iniciaModal(value){
     const modal = document.getElementById(value);
+
     if(modal){
         modal.classList.add('exibir');
         modal.addEventListener('click',(event)=>{
@@ -8,8 +9,11 @@ function iniciaModal(value){
             }
         })
     }
+
+    
 }
 
 const contato = document.querySelector('.contato');
 contato.addEventListener('click', ()=> iniciaModal('mymodal')
 )
+
