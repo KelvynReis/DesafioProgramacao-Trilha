@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+    <link rel="stylesheet" href="../Styles/modal.css">
+    <link rel="stylesheet" href="../Styles/footer.css">
     <link rel="stylesheet" href="../Styles/header.css">
     <link rel="stylesheet" href="../Styles/PontosTuristicos.css">
 </head>
@@ -20,7 +22,6 @@
                 <li><a  href="./index.html">Home</a></li>
                 <li><a href="./cultura.html">Cultura</a></li>
                 <li><a class="isActive"href="./PontosTuristicos.html">Pontos Turisticos</a></li>
-                <li><a href="#">Festas</a></li>
             </ul>
         </nav>
     </header>
@@ -110,7 +111,7 @@
                         <a href="https://www.linkedin.com/in/kelvynreis/" target="_blanck" class="facebook"><i class="fa fa-linkedin"></i></a>
                         <a href="https://www.instagram.com/kelvyn_reis_/" target="_blanck" class="instagram"><i class="fa fa-instagram"></i></a>
                     </div>
-                    <a href="#">
+                    <a href="#" class="contato">
                         <button type="button" class="btn btn-default">Contato</button>
                     </a>
                 </div>
@@ -124,7 +125,21 @@
         </div>
     </footer>
 
+    <div id="mymodal" class="modal-container">
+        <div class="modal-content">
+            <button class="exit">X</button>
+            <h3>Deixe sua opniao sobre o site</h3>
+            <form>
+                <input type="text" class="input" placeholder="Digite seu Nome">
+                <input type="text" class="input" placeholder="Digite seu Email">
+                <textarea cols="30" rows="10"></textarea>
+                <input type="button" value="enviar">
+            </form>
+        </div>
+    </div>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="../modal.js"></script>
 </body>
 </html>

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
+    <link rel="stylesheet" href="../Styles/modal.css">
     <link rel="stylesheet" href="../Styles/header.css">
     <link rel="stylesheet" href="../Styles/cultura.css">
     <link rel="stylesheet" href="../Styles/footer.css">
@@ -153,7 +154,7 @@
                         <a href="#" class="facebook"><i class="fa fa-linkedin"></i></a>
                         <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
                     </div>
-                    <a href="#">
+                    <a href="#" class="contato">
                         <button type="button" class="btn btn-default">Contato</button>
                     </a>
                 </div>
@@ -166,7 +167,22 @@
             <p>© 2021 Copyright - Kelvyn Reis</p>
         </div>
     </footer>
+
+    <div id="mymodal" class="modal-container">
+        <div class="modal-content">
+            <button class="exit">X</button>
+            <h3>Deixe sua opniao sobre o site</h3>
+            <form>
+                <input type="text" class="input" placeholder="Digite seu Nome">
+                <input type="text" class="input" placeholder="Digite seu Email">
+                <textarea cols="30" rows="10"></textarea>
+                <input type="button" value="enviar">
+            </form>
+        </div>
+    </div>
+
     <script src="../main.js"></script>
+    <script src="../modal.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
