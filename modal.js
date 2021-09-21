@@ -9,8 +9,6 @@ function iniciaModal(value){
             }
         })
     }
-
-    
 }
 
 const contato = document.querySelector('.contato');
