@@ -22,13 +22,14 @@ header{
     z-index: 100;
 }
 
-header h1{
-    width: 30%;
-    padding-bottom: 15px;
+.logo-maranhao{
+    width: 20%;
 }
-header h1 img{
-    width: 15%;
+
+.logo-maranhao img{
+    width: 20%;
 }
+
 nav{
     margin-right: 30px;
 }

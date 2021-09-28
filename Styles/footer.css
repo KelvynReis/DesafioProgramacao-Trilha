@@ -96,9 +96,13 @@
     line-height: 25px;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 780px) {
     #myFooter {
+        width: 100%;
         text-align: center;
+    }
+    .col-sm-2{
+        margin-top: 20px;
     }
 }
 
