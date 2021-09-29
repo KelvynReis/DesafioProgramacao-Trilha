@@ -31,6 +31,13 @@
     margin: 20px 0;
 }
 
+.content .video-iframe{
+    width: 100%;
+    margin: 0 auto;
+}
+.content .video-iframe iframe{
+    width: 100%;
+}
 .content p{
 
     width: 75%;
