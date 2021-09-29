@@ -10,8 +10,6 @@
     display: none;
     justify-content: center;
     align-items: center;
-
-    
 }
 
 .modal-container.exibir{
@@ -20,40 +18,49 @@
 }
 
 .modal-content{
-    background: white;
+    background: var(--bg);
     width: 60%;
     min-width: 300px;
     padding: 15px;
-    border: 10px solid rgb(18, 189, 166);
+    border: 10px solid var(--bg-panel);
 
     position: relative;
-    
+}
+
+.modal-content h3{
+    color: var(--color-headings);
+    font-size: 1.5rem;
 }
 
 .modal-content form label{
     width: 100%;
     display: block;
-    font-size: 14px;
+    font-size: 0.9rem;
 
     margin: 20px 0;
 }
 
-form label input, textarea{
+.label-modal{
+    color: var(--color-text);
+}
+
+form label input , textarea{ 
     display: block;
     padding: 10px 5px;
-    width: 50%;
-
+    width: 100%;
     margin: 10px 0;
 }
+
+
 
 .modal-content form button{
     width: 50%;
     padding: 11px;
     
     font-weight: bold;
-    font-size: 16px;
-    color: white;
-    background: rgb(18, 189, 166);
+    font-size: 1rem;
+    color: var(--color-text);
+    background: var(--bg-panel);
     border-radius: 5px;
     border: 1px solid;
     transition: 1s all;
@@ -61,8 +68,8 @@ form label input, textarea{
 }
 
 .modal-content form button:hover{
-    background: rgb(17, 131, 116);
-    color:blanchedalmond;
+    background: var(--color-text);
+    color:var(--bg-panel);
 }
 
 @keyframes modal{

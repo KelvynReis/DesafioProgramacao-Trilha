@@ -1,7 +1,7 @@
 .container{
     width: 80%;
     max-width: 940px;
-    margin: 7rem auto;
+    margin: 7rem auto 0 auto;
 
     display: flex;
     flex-direction: column;
@@ -12,7 +12,7 @@
 .container h1{
     text-align: center;
 
-    color: rgb(82, 255, 47);
+    color: var(--color-headings);
     font-weight: bold;
     font-size: 35px;
 
@@ -26,21 +26,30 @@
 }
 .content h3{
     text-align: center;
-    color: darkgreen;
+    color: var(--color-headings);
 
     margin: 20px 0;
 }
 
 .content p{
+
     width: 75%;
     margin-top: 20px;
     font-weight: 500;
     text-align: justify;
+    color: var(--color-text);
     line-height: 20px;
 }
 
 .content span{
+    color: var(--color-text);
     margin: 15px 0;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 1rem;
+}
+
+.content span a{
+    text-decoration: none;
+    color: var(--color-text);
+    font-size: 1rem;
 }

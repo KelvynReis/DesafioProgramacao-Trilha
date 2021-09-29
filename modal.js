@@ -14,4 +14,3 @@ function iniciaModal(value){
 const contato = document.querySelector('.contato');
 contato.addEventListener('click', ()=> iniciaModal('mymodal')
 )
-

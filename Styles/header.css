@@ -2,15 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-body{
-    height: 100vh;
+  }
+  html {
     font-family: 'Montserrat', sans-serif;
-}
+  
+    --bg: #FCFCFC;
+    --bg-panel: #EBEBEB;
+    --color-headings: #0077FF;
+    --color-text: #333333;
+    /* --header: #12BDA6; */
+  }
+  
+body{
+    background-color: var(--bg);
+  }
 header{
     width: 100%;
     height: 80px;
-    background: rgb(18, 189, 166);
+    background: var(--bg-panel);
 
     display: flex;
     align-items: center;
@@ -23,15 +32,22 @@ header{
 }
 
 .logo-maranhao{
-    width: 20%;
+    width: 30%;
+    display: flex;
+    justify-content: right;
 }
 
 .logo-maranhao img{
     width: 20%;
 }
 
-nav{
-    margin-right: 30px;
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    margin:0;
 }
 nav ul li{
     display: inline;
@@ -41,7 +57,7 @@ nav a{
     text-transform: uppercase;
     text-decoration: none;
     
-    color: rgb(19, 58, 56);
+    color: var(--color-text);
     font-size: 15px;
     font-weight: bold;
 }
@@ -59,3 +75,50 @@ nav a:hover{
     background: blanchedalmond;
     border-color: blanchedalmond;
 }
+
+/*  Dark mode */
+.toggle{
+    width: 20%;
+    display: flex;
+}
+input[type=checkbox]{
+    height: 0;
+    width: 0;
+    visibility: hidden;
+  }
+  
+.toggle label{
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 52px;
+  height: 27px;
+  background: grey;
+  float: right;
+  border-radius: 100px;
+  position: relative;
+}
+  
+.toggle label::after{
+    content: '';
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 90px;
+    transition: 0.3s;
+  }
+  
+  input:checked + .toggle label {
+    background-color: var(--color-headings);
+  }
+  
+  input:checked +  label::after {
+    left: calc(100% - 5px);
+    transform: translateX(-100%);
+  }
+  
+  .toggle label:active:after {
+    width: 45px;
+  }

@@ -4,8 +4,9 @@ main{
     max-width: 940px;
     margin: 35px auto;
 }
-main h2{
+main h1{
     text-align: center;
+    color: var(--color-headings);
     margin-top: 100px;
     margin-bottom: 30px;
 }
@@ -16,8 +17,9 @@ main img {
 }
  main p{
      margin-top: 20px;
-     font-size: 1.7rem;
+     font-size: 1.2rem;
      font-family: 'Montserrat', sans-serif;
+     color: var(--color-text);
  }
  
  /* CARDS */
@@ -35,7 +37,7 @@ main img {
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);
     padding: 30px;
     margin: 20px;
-    width: 400px;
+    width: auto;
     transition: all 0.3s ease-out;
   }
   
@@ -45,8 +47,8 @@ main img {
   }
   
   .card p {
-    color: #a3a5ae;
-    font-size: 16px;
+    color: var(--color-text);
+    font-size: 1rem;
   }
   
   .blue {
@@ -68,18 +70,28 @@ section{
      align-items: center;
 
      padding: 20px;
-     background-image: linear-gradient(#ffffff, #84899b );
+     background-color:  var(--bg);
  }
  .title-list{
      font-size: 20px;
      font-weight: bold;
      font-family: 'Montserrat', sans-serif;
+     color: var(--color-text);
+     text-decoration: none;
      margin-bottom: 20px;
  }
 section ul li{
-    text-decoration: none;
+    list-style: none;
+    color: var(--color-text);
  }
  .list{
   text-decoration: none;
  }
 
+section p strong{
+  color: var(--color-text);
+}
+
+section p a{
+  text-decoration: none;
+}

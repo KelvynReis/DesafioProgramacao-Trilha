@@ -12,3 +12,4 @@ function showSlides() {
   slides[slideIndex-1].style.display = "block";
   setTimeout(showSlides, 2000); // troca de imagem a cada 4 segundos
 }
+

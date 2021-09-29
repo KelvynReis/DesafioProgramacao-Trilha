@@ -8,16 +8,13 @@
     <title>Meu Maranhão - Home</title>
 
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
-    <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
     <link rel="stylesheet" href="./Styles/header.css">
     <link rel="stylesheet" href="./Styles/style.css">
     <link rel="stylesheet" href="./Styles/footer.css">
     <link rel="stylesheet" href="./Styles/modal.css">
     <link rel="stylesheet" href="./Styles/responsivo.css">
-
 
 </head>
 
@@ -33,10 +30,14 @@
                 <li><a href="./View/PontosTuristicos.html">Pontos Turisticos</a></li>
             </ul>
         </nav>
+        <div class="toggle">
+            <input id="switch" type="checkbox" name="theme">
+            <label for="switch">Toggle</label>
+        </div>
     </header>
 
     <main>
-        <h2> Meu Maranhão</h2>
+        <h1> Meu Maranhão</h1>
         <img src="../assets/images/main.jpg" alt="image-duna">
         <p class="text-principal">O Maranhão é um estado brasileiro situado na região Nordeste do Brasil. O seu
             território foi objeto de disputa entre diversos povos europeus, sendo que os portugueses mantiveram o
@@ -130,11 +131,11 @@
             <button class="exit">X</button>
             <h3>Deixe sua opniao sobre o site</h3>
             <form>
-                <label>Nome e sobrenome<input type="text"name="Name" required placeholder="fulano de tal" /></label>
-                <label>Email<input type="email"name="Name" required placeholder="fulano@gmail.com" /></label>
-                <label>Telefone<input type="tel"name="Name" required placeholder="(XX) XXXXX-XXXX" /></label>
+                <label class="label-modal">Nome e sobrenome<input type="text"name="Name" required placeholder="fulano de tal" /></label>
+                <label class="label-modal">Email<input type="email"name="Name" required placeholder="fulano@gmail.com" /></label>
+                <label class="label-modal">Telefone<input type="tel"name="Name" required placeholder="(XX) XXXXX-XXXX" /></label>
     
-                <label for="mensagem">Deixe sua opnião</label>
+                <label for="mensagem" class="label-modal">Deixe sua opnião</label>
                 <textarea id="mensagem" cols="30" rows="5" required></textarea>
                 <button>Enviar</button>
             </form>
@@ -142,10 +143,9 @@
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
-    <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
-    <script src="../modal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src="./modal.js"></script>
+    <script src="./darkmode.js"></script>
 </body>
 
 </html>

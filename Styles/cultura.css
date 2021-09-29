@@ -1,5 +1,4 @@
 
-
 .container{
     width: 100%;
     max-width: 940px;
@@ -20,7 +19,7 @@
     text-align: center;
     margin-bottom: 20px;
 
-    color: black;
+    color: var(--color-headings);
     font-size: 30px;
     font-weight: bold;
 }
@@ -28,8 +27,7 @@
 .content > p{
     text-align: justify;
     font-size: 16px;
-
-    /* margin-bottom: 5px; */
+    color: var(--color-text);
 }
 
 .section-principal{
@@ -38,7 +36,7 @@
 .title-principal{
     font-style: italic;
     font-size: 16px;
-    
+    color: var(--color-text);
     margin-bottom: 20px;
 }
 
@@ -52,13 +50,14 @@
 }
 .slider-content h2{
     margin-bottom: 20px;
+    color: var(--color-headings);
 }
 .slideshow-container {
   max-width: 720px;
   position: relative;
 }
 
-/* Hide the images by default */
+
 .mySlides {
   display: none;
 }
@@ -66,7 +65,7 @@
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: var(--color-text);
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
@@ -120,16 +119,22 @@
     margin-top: 30px;
 }
 .section-card{
-    border: 2px yellow solid;
+    border: 2px  solid var(--color-text);
     border-radius: 5px;
+    box-shadow: 7px 7px 13px 0px rgb(50 50 50 / 22%);
 
     padding: 5px;
     margin-bottom: 50px;
 }
 
+.section-card:hover {
+  transform: translateY(-5px);
+  cursor: pointer;
+}
+
 .title-section{
     text-align: center;
-    /* margin-bottom: 20px; */
+    color: var(--color-headings);
 }
 .content-section{
     display: flex;
@@ -140,6 +145,7 @@
 }
 
 .content-section p{
+    color: var(--color-text);
     width: 50%;
     text-align: justify;
     padding-left: 20px;
@@ -148,6 +154,10 @@
 section span{
     display: flex;
     justify-content: center;
-
     margin-bottom: 20px;
+    color: var(--color-text);
+}
+section span a{
+  text-decoration: none;
+  color: var(--color-text);
 }

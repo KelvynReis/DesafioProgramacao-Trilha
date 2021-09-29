@@ -1,11 +1,11 @@
 #myFooter {
-    background-color: #84899b;
-    color: white;
-    padding-top: 30px;
+    background-color:var(--bg);
+    color: var(--color-text);
+    /* padding-top: 30px; */
 }
 
 #myFooter .footer-copyright {
-    background-color: #333333;
+    background-color: var(--color-text);
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
@@ -22,7 +22,7 @@
 
 #myFooter .footer-copyright p {
     margin: 10px;
-    color: #ccc;
+    color: var(--bg);
 }
 
 #myFooter ul {
@@ -33,7 +33,7 @@
 
 #myFooter h5 {
     font-size: 18px;
-    color: white;
+    color: var(--color-text);
     font-weight: bold;
     margin-top: 30px;
 }
@@ -41,18 +41,18 @@
 #myFooter h2 a{
     font-size: 50px;
     text-align: center;
-    color: #fff;
+    color: var(--color-text);
 }
 
 #myFooter a {
-    color: #d2d1d1;
+    color: var(--color-text);
     text-decoration: none;
 }
 
 #myFooter a:hover,
 #myFooter a:focus {
     text-decoration: none;
-    color: white;
+    color: var(--color-text);
 }
 
 #myFooter .social-networks {
@@ -63,7 +63,7 @@
 
 #myFooter .social-networks a {
     font-size: 32px;
-    color: #f9f9f9;
+    color: var(--color-text);
     padding: 10px;
     transition: 0.2s;
 }
@@ -106,29 +106,3 @@
     }
 }
 
-
-/* CSS utilizado para posicionar o rodapé no final da página. */
-/* Você pode remover isso. */
-
-html{
-    height: 100%;
-}
-
-body{
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column;
-    -webkit-flex-direction: column;
-    height: 100%;
-}
-
-.content{
-   flex: 1 0 auto;
-   -webkit-flex: 1 0 auto;
-   min-height: 200px;
-}
-
-#myFooter{
-   flex: 0 0 auto;
-   -webkit-flex: 0 0 auto;
-}
