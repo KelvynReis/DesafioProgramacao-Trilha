@@ -1,151 +1,225 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Meu Maranhão - Home</title>
 
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
 
-    <link rel="stylesheet" href="./Styles/header.css">
-    <link rel="stylesheet" href="./Styles/style.css">
-    <link rel="stylesheet" href="./Styles/footer.css">
-    <link rel="stylesheet" href="./Styles/modal.css">
-    <link rel="stylesheet" href="./Styles/responsivo.css">
+    <link rel="stylesheet" href="./Styles/header.css" />
+    <link rel="stylesheet" href="./Styles/style.css" />
+    <link rel="stylesheet" href="./Styles/footer.css" />
+    <link rel="stylesheet" href="./Styles/modal.css" />
+    <link rel="stylesheet" href="./Styles/responsivo.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header>
-        <div class="logo-maranhao">
-            <img src="../assets/images/brasao.png" alt="brasaoMaranhao">
-        </div>
-        <nav class="navigation">
-            <ul class="cabecalho">
-                <li><a class="isActive" href="index.html">Home</a></li>
-                <li><a href="./View/cultura.html">Cultura</a></li>
-                <li><a href="./View/PontosTuristicos.html">Pontos Turisticos</a></li>
-            </ul>
-        </nav>
-        <div class="toggle">
-            <input id="switch" type="checkbox" name="theme">
-            <label for="switch">Toggle</label>
-        </div>
+      <div class="logo-maranhao">
+        <img src="../assets/images/brasao.png" alt="brasaoMaranhao" />
+      </div>
+      <nav class="navigation">
+        <ul class="cabecalho">
+          <li><a class="isActive" href="index.html">Home</a></li>
+          <li><a href="./View/cultura.html">Cultura</a></li>
+          <li><a href="./View/PontosTuristicos.html">Pontos Turisticos</a></li>
+        </ul>
+      </nav>
+      <div class="toggle">
+        <input id="switch" type="checkbox" name="theme" />
+        <label for="switch">Toggle</label>
+      </div>
     </header>
 
     <main>
-        <h1> Meu Maranhão</h1>
-        <img src="../assets/images/main.jpg" alt="image-duna">
-        <p class="text-principal">O Maranhão é um estado brasileiro situado na região Nordeste do Brasil. O seu
-            território foi objeto de disputa entre diversos povos europeus, sendo que os portugueses mantiveram o
-            domínio da região. A cultura maranhense é resultado da influência das populações que ocuparam o estado ao
-            longo da sua colonização. A sua capital, São Luís, possui um centro histórico muito conservado. A população
-            maranhense está concentrada no litoral e nas cidades médias do interior do estado.</p>
-        <div class="content-card">
-            <div class="card green">
-                <a href="https://www.infoescola.com/historia/historia-do-maranhao/" target="_blanck">
-                    <h2>História</h2>
-                    <p>Saiba mais sobre a historia do maranhao</p>
-                </a>
-            </div>
-
-            <div class="card blue">
-                <a href="https://brasilescola.uol.com.br/brasil/maranhao.htm" target="_blanck">
-                    <h2>Infraestrutura</h2>
-                    <p>Saiba mais sobre a Infraestrutura do maranhao</p>
-                </a>
-            </div>
-
-            <div class="card red">
-                <a href="https://www.infoescola.com/geografia/geografia-do-maranhao/" target="_blanck">
-                    <h2>Geografia</h2>
-                    <p>Saiba mais sobre a Geografia do maranhao</p>
-                </a>
-            </div>
+      <h1>Meu Maranhão</h1>
+      <img src="../assets/images/main.jpg" alt="image-duna" />
+      <p class="text-principal">
+        O Maranhão é um estado brasileiro situado na região Nordeste do Brasil.
+        O seu território foi objeto de disputa entre diversos povos europeus,
+        sendo que os portugueses mantiveram o domínio da região. A cultura
+        maranhense é resultado da influência das populações que ocuparam o
+        estado ao longo da sua colonização. A sua capital, São Luís, possui um
+        centro histórico muito conservado. A população maranhense está
+        concentrada no litoral e nas cidades médias do interior do estado.
+      </p>
+      <div class="content-card">
+        <div class="card green">
+          <a
+            href="https://www.infoescola.com/historia/historia-do-maranhao/"
+            target="_blanck"
+          >
+            <h2>História</h2>
+            <p>Saiba mais sobre a historia do maranhao</p>
+          </a>
         </div>
-    </main>
-    
-    <section>
-        <h2 class="title-list">Dados Gerais do Maranhão</h2>
-        <ul class="list">
-            <li><strong>Regiao</strong>: Nordeste</li>
-            <li><strong>Capital</strong> São Luis</li>
-            <li> <strong>Àrea territorial</strong> 329.651 km² (IBGE, 2019)</li>
-            <li> <strong>População</strong> 77.114.598 habitantes (IBGE, 2020)</li>
-            <li> <strong>Densidade demográfica</strong> 19,81 hab./km² (IBGE, 2010)</li>
-            <li> <strong>Fuso</strong> UTC-3</li>
-            <li> <strong>Clima</strong> Tropical</li>
-        </ul>
 
-        <p><strong>Fonte: </strong><a target="_blanck" href="https://brasilescola.uol.com.br/brasil/maranhao.htm">Brasil
-                escola</a></p>
+        <div class="card blue">
+          <a
+            href="https://brasilescola.uol.com.br/brasil/maranhao.htm"
+            target="_blanck"
+          >
+            <h2>Infraestrutura</h2>
+            <p>Saiba mais sobre a Infraestrutura do maranhao</p>
+          </a>
+        </div>
+
+        <div class="card red">
+          <a
+            href="https://www.infoescola.com/geografia/geografia-do-maranhao/"
+            target="_blanck"
+          >
+            <h2>Geografia</h2>
+            <p>Saiba mais sobre a Geografia do maranhao</p>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <section>
+      <h2 class="title-list">Dados Gerais do Maranhão</h2>
+      <ul class="list">
+        <li><strong>Regiao</strong>: Nordeste</li>
+        <li><strong>Capital</strong> São Luis</li>
+        <li><strong>Àrea territorial</strong> 329.651 km² (IBGE, 2019)</li>
+        <li><strong>População</strong> 77.114.598 habitantes (IBGE, 2020)</li>
+        <li>
+          <strong>Densidade demográfica</strong> 19,81 hab./km² (IBGE, 2010)
+        </li>
+        <li><strong>Fuso</strong> UTC-3</li>
+        <li><strong>Clima</strong> Tropical</li>
+      </ul>
+
+      <p>
+        <strong>Fonte: </strong
+        ><a
+          target="_blanck"
+          href="https://brasilescola.uol.com.br/brasil/maranhao.htm"
+          >Brasil escola</a
+        >
+      </p>
     </section>
 
     <footer id="myFooter">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <h2 class="logo"><a href="https://www.inova.ma.gov.br/"> <img width="150px"
-                                src="../assets/images/inova-maranhao.png" alt=""></a></h2>
-                </div>
-                <div class="col-sm-2">
-                    <h5>Inicio</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="./View/cultura.html">Cultura</a></li>
-                        <li><a href="./View/PontosTuristicos.html">Pontos Turisticos</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-2">
-                    <h5>Sobre o Inova Maranhão</h5>
-                    <ul>
-                        <li><a href="https://www.inova.ma.gov.br/" target="_blanck">Informações</a></li>
-                        <li><a href="https://www.inova.ma.gov.br/" target="_blanck">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="col-sm-3">
-                    <div class="social-networks">
-                        <a href="https://github.com/Sogeking07" class="twitter"><i class="fa fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/kelvynreis/" class="facebook"><i class="fa fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/kelvyn_reis_/" class="instagram"><i class="fa fa-instagram"></i></a>
-                    </div>
-                    <a href="#" class="contato">
-                        <button type="button" class="btn btn-default">Contato</button>
-                    </a>
-                </div>
-                <div class="col-sm-2">
-                    <img width="250px"src="../assets/images/trilhas.png" alt="imagen-trilhas">
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <h2 class="logo">
+              <a href="https://www.inova.ma.gov.br/">
+                <img
+                  width="150px"
+                  src="../assets/images/inova-maranhao.png"
+                  alt=""
+              /></a>
+            </h2>
+          </div>
+          <div class="col-sm-2">
+            <h5>Inicio</h5>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="./View/cultura.html">Cultura</a></li>
+              <li>
+                <a href="./View/PontosTuristicos.html">Pontos Turisticos</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-2">
+            <h5>Sobre o Inova Maranhão</h5>
+            <ul>
+              <li>
+                <a href="https://www.inova.ma.gov.br/" target="_blanck"
+                  >Informações</a
+                >
+              </li>
+              <li>
+                <a href="https://www.inova.ma.gov.br/" target="_blanck">Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-3">
+            <div class="social-networks">
+              <a href="https://github.com/Sogeking07" class="twitter"
+                ><i class="fa fa-github"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/kelvynreis/" class="facebook"
+                ><i class="fa fa-linkedin"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/kelvyn_reis_/"
+                class="instagram"
+                ><i class="fa fa-instagram"></i
+              ></a>
             </div>
+            <a href="#" class="contato">
+              <button type="button" class="btn btn-default">Contato</button>
+            </a>
+          </div>
+          <div class="col-sm-2">
+            <img
+              width="250px"
+              src="../assets/images/trilhas.png"
+              alt="imagen-trilhas"
+            />
+          </div>
         </div>
-        <div class="footer-copyright">
-            <p>© 2021 Copyright - Kelvyn Reis</p>
-        </div>
+      </div>
+      <div class="footer-copyright">
+        <p>© 2021 Copyright - Kelvyn Reis</p>
+      </div>
     </footer>
 
     <div id="mymodal" class="modal-container">
-        <div class="modal-content">
-            <button class="exit">X</button>
-            <h3>Deixe sua opniao sobre o site</h3>
-            <form>
-                <label class="label-modal">Nome e sobrenome<input type="text"name="Name" required placeholder="fulano de tal" /></label>
-                <label class="label-modal">Email<input type="email"name="Name" required placeholder="fulano@gmail.com" /></label>
-                <label class="label-modal">Telefone<input type="tel"name="Name" required placeholder="(XX) XXXXX-XXXX" /></label>
-    
-                <label for="mensagem" class="label-modal">Deixe sua opnião</label>
-                <textarea id="mensagem" cols="30" rows="5" required></textarea>
-                <button>Enviar</button>
-            </form>
-        </div>
+      <div class="modal-content">
+        <button class="exit">X</button>
+        <h3>Deixe sua opniao sobre o site</h3>
+        <form>
+          <label class="label-modal"
+            >Nome e sobrenome<input
+              type="text"
+              name="Name"
+              required
+              placeholder="fulano de tal"
+          /></label>
+          <label class="label-modal"
+            >Email<input
+              type="email"
+              name="Name"
+              required
+              placeholder="fulano@gmail.com"
+          /></label>
+          <label class="label-modal"
+            >Telefone<input
+              type="tel"
+              name="Name"
+              required
+              placeholder="(XX) XXXXX-XXXX"
+          /></label>
+
+          <label for="mensagem" class="label-modal">Deixe sua opnião</label>
+          <textarea id="mensagem" cols="30" rows="5" required></textarea>
+          <button>Enviar</button>
+        </form>
+      </div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
     <script src="./modal.js"></script>
     <script src="./darkmode.js"></script>
-</body>
-
+  </body>
 </html>
