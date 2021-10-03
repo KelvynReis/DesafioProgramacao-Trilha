@@ -72,15 +72,15 @@
     text-decoration: none;
 }
 
-#myFooter .facebook:hover {
+#myFooter .github:hover {
     color: #0077e2;
 }
 
-#myFooter .instagram:hover {
+#myFooter .linkedin:hover {
     color: purple;
 }
 
-#myFooter .twitter:hover {
+#myFooter .instagram:hover {
     color: #00aced;
 }
 
